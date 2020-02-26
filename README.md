@@ -1,12 +1,10 @@
 # Kabob-Shack
-Kabob Shack application created using Java. The application let's user enter the amount of customers in line. 
-Then it asks the user if they would like to order. The answer to the questions in the application all have different responses to make sure the result is valid towards the question asked. 
-At the end of the application the user will see the total cost of the food.
+Kabob Shack application created using Java. The application lets users enter the number of customers in line. Then it asks the user if they would like to order. The answer to the questions in the application all have different responses to make sure the result is valid towards the question asked. At the end of the application, the user will see the total cost of the food.
 
 # What I Learned
-* How to create objects by using an array to loop depending on the users input
+* How to create objects by using an array to loop depending on the user's input
 * How to use encapsulation to prevent the data from being accessed by the code outside its class
-* How to create multiple methods that perform several specific task and return result to the caller
+* How to create multiple methods that perform several specific tasks and return the result to the caller
 
 # View Project
 #### Display application showing try again action for invalid user input
