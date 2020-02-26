@@ -31,13 +31,14 @@ public class Customers {
 			getOrderDetails();
 		} else if (question1.equalsIgnoreCase("No")) {
 			System.out.println(" Goodbye and have a nice day!");
+			System.out.print("--------------------------------------------------\n\n");
 		}
 		
 	}
 	
 
 	private void getMenu() {
-		System.out.println("\n---------------------[ Menu ]---------------------\n"
+		System.out.println("---------------------[ Menu ]---------------------\n"
 				+ " [ Gyros ] (Extra meat for an additional charge)\n"
 				+ " Chicken Gyro $4.99+    Lamb Gyro  $4.99+\n" 
 				+ "\n [ Platters ] (Extra meat for additional charge)\n"
@@ -46,7 +47,7 @@ public class Customers {
 				+ " Grilled Lamb Salad $6.99\n" + " Falafel Salad $6.99\n"
 				+ "\n [ Cakes ] \n" + " Cheesecake $2.99" + "  Carrot Cake $2.99\n" + 
 				" Strawberry Cheesecake $2.99" + "  Oreo Cake $2.99" +
-				"\n--------------------------------------------------\n");
+				"\n--------------------------------------------------");
 	}
 	
 	private void getOrderDetails() {
@@ -95,9 +96,8 @@ public class Customers {
 
 		
 		System.out.println(" Your total is: " + balance);
+		System.out.print("--------------------------------------------------\n\n");
 
-		
-		
 		
 	}
 }
